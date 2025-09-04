@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-gutter: stable;
+}
+
+:root {
+    --grey-200: hsl(0, 0%, 85%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: rem(1440px);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    position: relative;
+}
+
+a::after {
+    position: absolute;
+    background-color: transparent;
+    content: '';
+    width: 0%;
+    bottom: rem(-10px);
+    left: 50%;
+    // right: 0;
+    height: rem(2px);
+    transition: 0.5s ease;
+}
+
+a:hover::after {
+    width: 45%;
+    left: 28%;
+    background-color: #e8d7ec;
+}
+
+.nav__mobile-menu-link:hover::after {
+    background-color: #eee;
+}
+
+.nav__logo-link:hover::after {
+    display: none;
+}
+
+.products__grid-item-link:hover::after {
+    display: none;
+}
+
+.products__title-see-all:hover::after {
+    display: none;
+}
+
+.products__title-see-all-mobile a:hover::after {
+    display: none;
+}
+
+.footer__menu-link:hover::after {
+    background-color: #eee;
+}
+
+.footer__socials-link::after {
+    position: absolute;
+    background-color: transparent;
+    content: '';
+    width: 0%;
+    bottom: rem(-4px);
+    left: 40%;
+    // right: 0;
+    height: rem(2px);
+    transition: 0.5s ease;
+}
+
+.footer__socials-link:hover::after {
+    background-color: #eee;
+    bottom: rem(-4px);
+    left: rem(7px);
+    width: 60%;
+}
+
+
+
+// z-index 
+.dark-overlay {
+    z-index: 101;
+}
+
+.nav { 
+    z-index: 102;
+}
+
+.products__grid-item-title {
+    z-index: 99;
+}
+
+.products__grid-item-link picture::after {
+    z-index: 101;
+}
+
+.products__grid-item-link picture {
+    z-index: 100;
+}
+
+.products__grid-item-link picture:hover .products__grid-item-title {
+    z-index: 106;
+}

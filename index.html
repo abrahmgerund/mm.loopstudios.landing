@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="dark-overlay"></div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav__container container">
+      <div class="nav__logo">
+        <a href="#" class="nav__logo-link"><img src="./images/logo.svg" alt="logo"></a>
+      </div>
+      <div class="nav__menu">
+        <ul class="nav__menu-items">
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#about">About</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#careers">Careers</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#events">Events</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#products">Products</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#support">Support</a></li>
+        </ul>
+      </div>
+    
+      <!-- Mobile Nav -->
+      <div class="nav__mobile-nav">
+        <div class="nav__mobile-nav-hamburger-btn">
+          <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
+        </div>
+        <div class="nav__mobile-nav-hamburger-close">
+            <img src="./images/icon-close.svg" alt="icon-hamburger-close">
+        </div>
+        <div class="nav__mobile-nav-slide">
+          <div class="nav__mobile-menu">
+            <ul class="nav__mobile-menu-items">
+              <li class="nav__mobile-menu-item"><a class="nav__mobile-menu-link" href="#about">About</a></li>
+              <li class="nav__mobile-menu-item"><a class="nav__mobile-menu-link" href="#careers">Careers</a></li>
+              <li class="nav__mobile-menu-item"><a class="nav__mobile-menu-link" href="#events">Events</a></li>
+              <li class="nav__mobile-menu-item"><a class="nav__mobile-menu-link" href="#products">Products</a></li>
+              <li class="nav__mobile-menu-item"><a class="nav__mobile-menu-link" href="#support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="header" id="header">
+    <div class="header__container container">
+      <div class="header__hero">
+        <div class="header__hero-image">
+          <img src="./images/desktop/image-hero.jpg" alt="image-hero">
+        </div>
+        <div class="header__hero-image-mobile">
+          <img src="./images/mobile/image-hero.jpg" alt="image-hero-mobile">
+        </div>
+        <h1 class="header__title">Immersive Experiences that Deliver</h1>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <!-- About -->
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="about__image">
+          <img src="./images/desktop/image-interactive.jpg" alt="image-interactive">
+          <article class="about__article">
+            <h2 class="about__article-title">The Leader in Interactive VR</h2>
+            <p class="about__article-text">
+              Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+            </p>
+          </article>
+        </div>
+        <article class="about__article-mobile">
+          <h2 class="about__article-title-mobile">The Leader in Interactive VR</h2>
+          <p class="about__article-text-mobile">
+            Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+          </p>
+        </article>
+      </div>
+    </section>
+
+  <!-- Products -->
+    <section class="products" id="products">
+      <div class="products__container container">
+        <div class="products__title-wrap">
+          <h2 class="products__title">Our Creations</h2>
+          <a class="products__title-see-all" href="#">See All</a>
+        </div>
+        <div class="products__grid">
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-deep-earth.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-deep-earth.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-deep-earth.jpg" alt="deep-earth-desktop">
+                <h3 class="products__grid-item-title">Deep Earth</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-night-arcade.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-night-arcade.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-night-arcade.jpg" alt="night-arcade-desktop">
+                <h3 class="products__grid-item-title">Night Arcade</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-soccer-team.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-soccer-team.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-soccer-team.jpg" alt="soccer-team-desktop">
+                <h3 class="products__grid-item-title">Soccer Team VR</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-grid.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-grid.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-grid.jpg" alt="grid-desktop">
+                <h3 class="products__grid-item-title">The Grid</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-from-above.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-from-above.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-from-above.jpg" alt="from-above-desktop">
+                <h3 class="products__grid-item-title">From Up Above AR</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-pocket-borealis.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-pocket-borealis.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-pocket-borealis.jpg" alt="pocket-borealis-desktop">
+                <h3 class="products__grid-item-title">Pocket Borealis</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-curiosity.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-curiosity.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-curiosity.jpg" alt="curiosity-desktop">
+                <h3 class="products__grid-item-title">The Curiosity</h3>
+              </picture>
+            </a>
+          </div>
+          <div class="products__grid-item">
+            <a class="products__grid-item-link" href="./images/desktop/image-fisheye.jpg">
+              <picture>
+                <source srcset="./images/mobile/image-fisheye.jpg" media="(max-width: 768px)">
+                <img src="./images/desktop/image-fisheye.jpg" alt="fisheye-desktop">
+                <h3 class="products__grid-item-title">Make it Fisheye</h3>
+              </picture>
+            </a>
+          </div>
+        </div>
+        <div class="products__title-see-all-mobile">
+          <a href="#">See All</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__container container">
+      <div class="footer__flex">
+        <div class="footer__logo-n-menu">
+          <div class="footer__logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <div class="footer__menu">
+            <ul class="footer__menu-items">
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#about">About</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#careers">Careers</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#events">Events</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#products">Products</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__socials-n-copyright">
+          <ul class="footer__socials-items">
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="https://facebook.com">
+                <i class="fa-brands fa-square-facebook fa-2x"></i>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="https://twitter.com">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="https://pinterest.com">
+                <i class="fa-brands fa-pinterest fa-2x"></i>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a class="footer__socials-link" href="https://instagram.com">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- About
+  Careers
+  Events
+  Products
+  Support
+
+  Immersive experiences that deliver
+
+  The leader in interactive VR
+
+  Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.
+
+  Our creations
+
+  See all
+
+  Deep earth
+  Night arcade
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+
+  About
+  Careers
+  Events
+  Products
+  Support
+
+  © 2021 Loopstudios. All rights reserved. -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name</a>.
+  </div> -->
+  <script src="./script/script.js"></script>
+</body>
+</html>
