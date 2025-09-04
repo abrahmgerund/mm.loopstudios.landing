@@ -495,7 +495,7 @@ a:hover::after {
 }
 @media (max-width: 1082px) {
   .about__container {
-    height: 75vh;
+    height: 85vh;
     padding: 10rem 4rem 3.75rem;
     margin-bottom: 15.625rem;
   }
@@ -512,6 +512,9 @@ a:hover::after {
   }
   .about__article-text-mobile {
     padding-bottom: 7.5rem;
+  }
+  .about__article-title-mobile {
+    margin-top: 3.75rem;
   }
   .products__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -584,6 +587,9 @@ a:hover::after {
   .nav__container {
     padding: 4rem 2.8125rem 1rem;
   }
+  .about__container {
+    height: 80vh;
+  }
   .header__title {
     margin: 14.0625rem 1.5rem;
     font-size: 2.875rem;
@@ -617,7 +623,7 @@ a:hover::after {
     font-size: 2.625rem;
   }
   .about__container {
-    height: 60vh;
+    height: 65vh;
     padding: 10rem 1.25rem;
     position: static;
   }

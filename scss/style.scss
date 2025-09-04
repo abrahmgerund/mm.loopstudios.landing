@@ -417,7 +417,7 @@
 
 @media (max-width: 1082px) {
     .about__container {
-        height: 75vh;
+        height: 85vh;
         padding: rem(160px) rem(64px) rem(60px);
         margin-bottom: rem(250px);
     }
@@ -438,6 +438,10 @@
 
     .about__article-text-mobile {
         padding-bottom: rem(120px);
+    }
+
+    .about__article-title-mobile {
+        margin-top: rem(60px);
     }
 
     .products__grid {
@@ -527,6 +531,10 @@
         padding: rem(64px) rem(45px) rem(16px);
     }
 
+    .about__container {
+        height: 80vh;
+    }
+
     .header__title {
         margin: rem(225px) rem(24px);
         font-size: rem(46px);
@@ -569,7 +577,7 @@
     }
 
     .about__container {
-        height: 60vh;
+        height: 65vh;
         padding: rem(160px) rem(20px);
         position: static;
     }
