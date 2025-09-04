@@ -615,4 +615,7 @@ a:hover::after {
   .products {
     margin-bottom: 0;
   }
+  .footer__container {
+    padding: 2.6875rem 1.25rem 2.6875rem 1.5625rem;
+  }
 }
