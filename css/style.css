@@ -533,6 +533,20 @@ a:hover::after {
     width: 100%;
     padding: 4rem 4.0625rem 1rem;
   }
+  .about__container {
+    height: 100vh;
+    padding: 10rem 4rem 3.75rem;
+    position: static;
+  }
+  .about__article {
+    display: none;
+  }
+  .about__article-mobile {
+    display: block;
+  }
+  .about__article-text-mobile {
+    padding-bottom: 7.5rem;
+  }
   .header__title {
     top: 0;
     margin: 14.0625rem 4rem;
@@ -569,20 +583,6 @@ a:hover::after {
   .header__title {
     margin: 14.0625rem 1.5rem;
     font-size: 2.875rem;
-  }
-  .about__container {
-    height: 100vh;
-    padding: 10rem 4rem 3.75rem;
-    position: static;
-  }
-  .about__article {
-    display: none;
-  }
-  .about__article-mobile {
-    display: block;
-  }
-  .about__article-text-mobile {
-    padding-bottom: 7.5rem;
   }
   .products__grid {
     grid-template-columns: minmax(100px, auto);

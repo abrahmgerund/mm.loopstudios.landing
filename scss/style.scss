@@ -469,6 +469,24 @@
         padding: rem(64px) rem(65px) rem(16px);
     }
 
+        .about__container {
+        height: 100vh;
+        padding: rem(160px) rem(64px) rem(60px);
+        position: static;
+    }
+
+    .about__article {
+        display: none;
+    }
+
+    .about__article-mobile {
+        display: block;
+    }
+
+    .about__article-text-mobile {
+        padding-bottom: rem(120px);
+    }
+
     .header__title {
         top: 0;
         margin: rem(225px) rem(64px);
@@ -511,24 +529,6 @@
     .header__title {
         margin: rem(225px) rem(24px);
         font-size: rem(46px);
-    }
-
-    .about__container {
-        height: 100vh;
-        padding: rem(160px) rem(64px) rem(60px);
-        position: static;
-    }
-
-    .about__article {
-        display: none;
-    }
-
-    .about__article-mobile {
-        display: block;
-    }
-
-    .about__article-text-mobile {
-        padding-bottom: rem(120px);
     }
 
     .products__grid {
