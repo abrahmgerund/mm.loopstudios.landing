@@ -276,18 +276,18 @@ a:hover::after {
 }
 
 .about__container {
-  height: 81vh;
-  padding: 10rem 10.25rem 0rem;
+  height: 100vh;
+  padding: 10rem 10.25rem;
   position: relative;
 }
 
 .about__article {
   position: absolute;
-  bottom: -7px;
+  bottom: 0;
   right: 10.25rem;
   transform: translateY(-127px);
   width: 33.875rem;
-  height: 19.9375rem;
+  height: 19.8125rem;
   background-color: #fff;
   padding-left: 5.9375rem;
   padding-top: 5.9375rem;
@@ -361,6 +361,12 @@ a:hover::after {
   border: #000;
 }
 
+.products__title-see-all-mobile a:hover {
+  color: #eee;
+  background-color: #000;
+  border: #000;
+}
+
 .products__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -368,7 +374,7 @@ a:hover::after {
   row-gap: 1.5625rem;
 }
 
-.products__grid-item-link {
+.products__grid-item picture {
   position: relative;
 }
 
@@ -551,11 +557,6 @@ a:hover::after {
     color: #000;
     font-size: 0.9375rem;
     margin: 1.8125rem auto;
-  }
-  .products__title-see-all-mobile a:hover {
-    color: #eee;
-    background-color: #000;
-    border: #000;
   }
 }
 @media (max-width: 768px) {
