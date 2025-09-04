@@ -282,11 +282,12 @@ a:hover::after {
 
 .about__image {
   position: relative;
+  display: flex;
 }
 
 .about__article {
   position: absolute;
-  bottom: 0.3125rem;
+  bottom: 0;
   right: 0;
   width: 33.875rem;
   height: 19.8125rem;
