@@ -607,7 +607,7 @@ a:hover::after {
     filter: brightness(100%);
   }
   .products__grid img {
-    width: 340px;
+    width: 21.25rem;
   }
   .products__title {
     font-size: 2.125rem;
