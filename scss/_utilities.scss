@@ -103,7 +103,7 @@ a:hover::after {
 .footer__socials-link:hover::after {
     background-color: #eee;
     bottom: rem(-4px);
-    left: rem(7px);
+    left: rem(6.7px);
     width: 60%;
 }
 
@@ -111,25 +111,33 @@ a:hover::after {
 
 // z-index 
 .dark-overlay {
-    z-index: 101;
+    z-index: 501;
 }
 
 .nav { 
-    z-index: 102;
+    z-index: 502;
 }
 
-.products__grid-item-title {
-    z-index: 99;
-}
 
-.products__grid-item-link picture::after {
-    z-index: 101;
-}
-
-.products__grid-item-link picture {
+.products__grid-item-link picture img {
     z-index: 100;
 }
 
-.products__grid-item-link picture:hover .products__grid-item-title {
+.products__grid-item-title {
+    z-index: 101;
+}
+
+.products__grid-item-link picture::after {
+    z-index: 102;
+}
+
+.products__grid-item-link picture:hover::after {
+    z-index: 104;
+}
+
+.products__grid-item-link picture:hover + .products__grid-item-title {
     z-index: 106;
 }
+
+
+
