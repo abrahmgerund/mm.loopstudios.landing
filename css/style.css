@@ -276,21 +276,23 @@ a:hover::after {
 }
 
 .about__container {
-  height: 100vh;
+  height: 49.3125rem;
   padding: 10rem 10.25rem;
+}
+
+.about__image {
   position: relative;
 }
 
 .about__article {
   position: absolute;
-  bottom: 0;
-  right: 10.25rem;
-  transform: translateY(-127px);
+  bottom: 0.3125rem;
+  right: 0;
   width: 33.875rem;
   height: 19.8125rem;
   background-color: #fff;
-  padding-left: 5.9375rem;
-  padding-top: 5.9375rem;
+  padding-left: 6rem;
+  padding-top: 6rem;
 }
 
 .about__article-title {
@@ -340,8 +342,9 @@ a:hover::after {
 }
 
 .products__title {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 3rem;
+  letter-spacing: 0.0125rem;
 }
 
 .products__title-see-all {

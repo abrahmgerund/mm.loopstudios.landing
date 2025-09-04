@@ -186,21 +186,23 @@
 
 // About
 .about__container {
-    height: 100vh;
+    height: rem(789px);
     padding: rem(160px) rem(164px);
+}
+
+.about__image {
     position: relative;
 }
 
 .about__article {
     position: absolute;
-    bottom: 0;
-    right: rem(164px);
-    transform: translateY(-127px);
+    bottom: rem(5px);
+    right: 0;
     width: rem(542px);
     height: rem(317px);
     background-color: #fff;
-    padding-left: rem(95px);
-    padding-top: rem(95px);
+    padding-left: rem(96px);
+    padding-top: rem(96px);
 }
 
 .about__article-title {
@@ -252,8 +254,9 @@
 }
 
 .products__title {
-    font-weight: 300;
+    font-weight: 200;
     font-size: rem(48px);
+    letter-spacing: rem(0.2px);
 }
 
 .products__title-see-all {
