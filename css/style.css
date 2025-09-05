@@ -320,11 +320,11 @@ a:hover::after {
 }
 
 .about__article-title-mobile {
+  position: relative;
   text-transform: uppercase;
   font-size: 2.9375rem;
   letter-spacing: 0.04375rem;
   font-weight: 300;
-  margin-bottom: 1.6875rem;
   margin-top: 1.6875rem;
 }
 
@@ -495,9 +495,9 @@ a:hover::after {
 }
 @media (max-width: 1082px) {
   .about__container {
-    height: 85vh;
-    padding: 10rem 4rem 3.75rem;
-    margin-bottom: 25rem;
+    height: auto;
+    padding: 10rem 4rem 0rem;
+    margin-bottom: 7.8125rem;
   }
   .about__image {
     display: flex;
@@ -509,9 +509,6 @@ a:hover::after {
   .about__article-mobile {
     display: block;
     text-align: center;
-  }
-  .about__article-text-mobile {
-    padding-bottom: 7.5rem;
   }
   .about__article-title-mobile {
     margin-top: 3.75rem;
@@ -539,7 +536,7 @@ a:hover::after {
     margin-top: 1.5rem;
   }
   .footer__container {
-    padding-top: 5rem;
+    padding: 2.6875rem 1.25rem 2.6875rem 1.5625rem;
   }
 }
 @media (max-width: 960px) {
@@ -559,6 +556,9 @@ a:hover::after {
     margin: 14.0625rem 4rem;
     padding: 2.4375rem 2.5rem 1.6875rem;
     max-width: 40.75rem;
+  }
+  .products {
+    margin-bottom: 5.25rem;
   }
   .products__title-wrap {
     justify-content: center;
@@ -588,7 +588,7 @@ a:hover::after {
     padding: 4rem 2.8125rem 1rem;
   }
   .about__container {
-    height: 80vh;
+    height: auto;
   }
   .header__title {
     margin: 14.0625rem 1.5rem;
@@ -623,8 +623,8 @@ a:hover::after {
     font-size: 2.625rem;
   }
   .about__container {
-    height: 65vh;
-    padding: 10rem 1.25rem;
+    height: auto;
+    padding: 10rem 1.25rem 0rem;
     position: static;
   }
   .about__article-title-mobile {
@@ -645,9 +645,6 @@ a:hover::after {
   }
   .products__title {
     font-size: 2.125rem;
-  }
-  .products {
-    margin-bottom: 0;
   }
   .footer__container {
     padding: 2.6875rem 1.25rem 2.6875rem 1.5625rem;
