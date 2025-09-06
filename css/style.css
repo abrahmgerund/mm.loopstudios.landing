@@ -326,6 +326,7 @@ a:hover::after {
   letter-spacing: 0.04375rem;
   font-weight: 300;
   margin-top: 1.6875rem;
+  margin-bottom: 1.6875rem;
 }
 
 .about__article-text-mobile {
@@ -395,6 +396,7 @@ a:hover::after {
   font-weight: 300;
   width: 56%;
   line-height: 1;
+  pointer-events: none;
 }
 
 .products__grid-item:nth-child(5) .products__grid-item-title {
@@ -497,7 +499,7 @@ a:hover::after {
   .about__container {
     height: auto;
     padding: 10rem 4rem 0rem;
-    margin-bottom: 7.8125rem;
+    margin-bottom: 6.25rem;
   }
   .about__image {
     display: flex;

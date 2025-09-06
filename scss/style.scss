@@ -233,6 +233,7 @@
     font-weight: 300;
     // margin-bottom: rem(27px);
     margin-top: rem(27px);
+    margin-bottom: rem(27px);
 }
 
 .about__article-text-mobile {
@@ -304,6 +305,8 @@
     font-weight: 300;
     width: 56%;
     line-height: 1;
+    // transition: color 1s ease;
+    pointer-events: none;
 }
 
 .products__grid-item:nth-child(5) .products__grid-item-title {
@@ -314,6 +317,11 @@
     display: flex;
     justify-content: center;
 }
+
+// .products__grid-item-title:hover {
+//     color: #000;
+//     transition: color 1s ease;
+// }
 
 .products__grid-item-link picture {
     display: flex;
@@ -420,7 +428,7 @@
     .about__container {
         height: auto;
         padding: rem(160px) rem(64px) rem(0px);
-        margin-bottom: rem(125px);
+        margin-bottom: rem(100px);
     }
 
     .about__image {
